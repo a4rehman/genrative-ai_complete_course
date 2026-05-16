@@ -1,0 +1,49 @@
+﻿{
+    "topic":  "BERT",
+    "questions":  [
+                      {
+                          "answer":  0,
+                          "question":  "What is the main production purpose of ",
+                          "explanation":  "BERT should improve reliability, usefulness, or architecture in a GenAI system.",
+                          "options":  [
+                                          "Build reliable AI application behavior",
+                                          "Avoid evaluation",
+                                          "Expose API keys",
+                                          "Remove user context"
+                                      ]
+                      },
+                      {
+                          "answer":  0,
+                          "question":  "What is a common GenAI production risk?",
+                          "explanation":  "Prompt injection, hallucination, privacy leaks, and tool misuse are real production risks.",
+                          "options":  [
+                                          "Prompt injection or hallucination",
+                                          "Too many README badges",
+                                          "Using folders",
+                                          "Writing notes"
+                                      ]
+                      },
+                      {
+                          "answer":  0,
+                          "question":  "What should RAG systems optimize first?",
+                          "explanation":  "RAG quality depends heavily on chunking, embeddings, retrieval, context assembly, and answer grounding.",
+                          "options":  [
+                                          "Retrieval quality and grounded answers",
+                                          "UI colors only",
+                                          "Random chunking",
+                                          "No evaluation"
+                                      ]
+                      },
+                      {
+                          "answer":  0,
+                          "question":  "What makes an agent safer?",
+                          "explanation":  "Agents need guardrails because they can take actions, not only produce text.",
+                          "options":  [
+                                          "Constrained tools, validation, and approval gates",
+                                          "Unlimited tool access",
+                                          "Hidden logs",
+                                          "No tests"
+                                      ]
+                      }
+                  ]
+}

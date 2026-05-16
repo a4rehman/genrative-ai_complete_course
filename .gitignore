@@ -1,21 +1,65 @@
-.venv/
-venv/
+# Python bytecode
 __pycache__/
 *.py[cod]
 *.pyo
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.ipynb_checkpoints/
+*$py.class
+
+# Environments and secrets
 .env
 .env.*
 !.env.example
+.envrc
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.streamlit/secrets.toml
+
+# Packaging and builds
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+MANIFEST
+
+# Test, lint, and type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Notebooks and editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+tempCodeRunnerFile.py
+
+# App/database/runtime artifacts
 *.log
 *.sqlite
 *.db
 *.tmp
 *.bak
-dist/
-build/
-*.egg-info/
-.streamlit/secrets.toml
+db.sqlite3
+db.sqlite3-journal
+
+# Misc tooling
+.cache/
+.pyre/
+.pytype/
+.pdm-python
+.pdm-build/
+.pixi/
+__pypackages__/
+marimo/_static/
+marimo/_lsp/
+__marimo__/
